@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NameInput">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/input_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/input_first_name"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="17dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/input_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/input_last_name"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="81dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_cancel"
+                android:layout_width="190dp"
+                android:layout_height="45dp"
+                android:text="@string/button_cancel"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="158dp"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/button_save"
+                android:layout_width="190dp"
+                android:layout_height="45dp"
+                android:text="@string/button_save"
+                tools:layout_editor_absoluteX="224dp"
+                tools:layout_editor_absoluteY="160dp"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

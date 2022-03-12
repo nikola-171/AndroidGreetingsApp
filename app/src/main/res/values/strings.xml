@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aplikacija za pozdrave</string>
+    <string name="button_name">ENTER NAME</string>
+    <string name="button_greeting">POZDRAVI</string>
+    <string name="button_cancel">CANCEL</string>
+    <string name="button_save">SAVE</string>
+    <string name="input_first_name">First name</string>
+    <string name="input_last_name">Last name</string>
+</resources>
